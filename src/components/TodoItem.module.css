@@ -1,0 +1,54 @@
+.isDone {
+  text-decoration: line-through;
+  color: rgba(174, 179, 179, 0.603);
+}
+
+.list {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list li:last-child {
+  margin-bottom: 5px;
+}
+
+.list li {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 21px;
+  align-items: center;
+}
+
+.checkbox {
+  min-width: 17px;
+  height: 17px;
+  border-radius: 6px;
+  border: solid 2px #c4c4c4;
+}
+
+.checkbox:hover {
+  border: solid 2px #ff4545;
+}
+
+.checkboxIsDone {
+  background-color: #b5b5ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 21px;
+  height: 21px;
+  border-radius: 6px;
+}
+
+.todoButton {
+  margin-left: auto;
+  font-size: 20px;
+  color: rgba(120, 128, 128, 0.788);
+}
+
+.todoButton:hover {
+  color: #ff4545;
+  cursor: pointer;
+}

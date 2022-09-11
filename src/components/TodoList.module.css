@@ -1,0 +1,68 @@
+.unitName {
+  display: flex;
+  gap: 0 12px;
+  align-items: center;
+  font-weight: 700;
+  color: #413f3f;
+  margin-bottom: 10px;
+}
+
+.line {
+  background-color: rgba(188, 188, 195, 0.439);
+  height: 2px;
+  border-radius: 50%;
+  flex-grow: 1;
+}
+
+.number {
+  background-color: #413f3f;
+  border-radius: 6px;
+  width: 23px;
+  height: 23px;
+  color: #f4f4f4;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listForm {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #dddcdc;
+  margin-bottom: 10px;
+}
+
+.listForm input,
+.listForm button {
+  font: inherit;
+}
+
+.listForm input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1 1 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100%;
+}
+
+.listForm button {
+  background-color: #444041;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 3px 8px 4px;
+  cursor: pointer;
+}
+
+.listForm button:hover {
+  background-color: #ff4545;
+}

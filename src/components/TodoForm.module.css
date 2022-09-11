@@ -1,0 +1,40 @@
+.unitForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  border-radius: 8px;
+  background: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.unitForm input,
+.unitForm button {
+  font: inherit;
+}
+
+.unitForm input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1 1 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100%;
+}
+
+.unitForm button {
+  margin-left: 20px;
+  background-color: #444041;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.unitForm button:hover {
+  background-color: #ff4545;
+}
